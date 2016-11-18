@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <BTVerticalPage/BTVerticalPageViewController.h>
+#import "BTSpotEditPreviewViewController.h"
 
 @interface ViewController ()
 
@@ -26,5 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onBtn:(id)sender {
+    BTSpotEditPreviewViewController *controller = [[BTSpotEditPreviewViewController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
+}
 
 @end

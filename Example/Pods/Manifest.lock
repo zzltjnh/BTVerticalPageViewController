@@ -1,8 +1,10 @@
 PODS:
   - BTVerticalPage (1.0.0)
+  - SVPullToRefresh (0.4.1)
 
 DEPENDENCIES:
   - BTVerticalPage (from `../`)
+  - SVPullToRefresh
 
 EXTERNAL SOURCES:
   BTVerticalPage:
@@ -10,7 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BTVerticalPage: 06afb0b1d773d62afd42dec67f33a68720b8f8da
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
 
-PODFILE CHECKSUM: f96c024789f9c7e543ffa7f0a02c82768aea7494
+PODFILE CHECKSUM: 4baea26122fef00143535dad0ab45892268c5857
 
 COCOAPODS: 1.2.0.beta.1

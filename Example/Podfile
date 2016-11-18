@@ -8,5 +8,6 @@ target 'Example' do
 
   # Pods for Example
   pod 'BTVerticalPage', :path => '../'
+  pod 'SVPullToRefresh'
 
 end

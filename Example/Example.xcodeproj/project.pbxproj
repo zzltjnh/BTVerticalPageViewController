@@ -13,6 +13,8 @@
 		510458C81DDF29F80060A1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510458C61DDF29F80060A1CD /* Main.storyboard */; };
 		510458CA1DDF29F80060A1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510458C91DDF29F80060A1CD /* Assets.xcassets */; };
 		510458CD1DDF29F80060A1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510458CB1DDF29F80060A1CD /* LaunchScreen.storyboard */; };
+		5162E6E41DDF38D3002E342A /* BTSpotEditPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162E6E11DDF38D3002E342A /* BTSpotEditPreviewViewController.m */; };
+		5162E6E51DDF38D3002E342A /* BTChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162E6E31DDF38D3002E342A /* BTChildViewController.m */; };
 		BD9F976826F7EB0B523E3527 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E38C10D3CAB25EC4ED5E20D /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,10 @@
 		510458C91DDF29F80060A1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		510458CC1DDF29F80060A1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		510458CE1DDF29F80060A1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5162E6E01DDF38D3002E342A /* BTSpotEditPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSpotEditPreviewViewController.h; sourceTree = "<group>"; };
+		5162E6E11DDF38D3002E342A /* BTSpotEditPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSpotEditPreviewViewController.m; sourceTree = "<group>"; };
+		5162E6E21DDF38D3002E342A /* BTChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTChildViewController.h; sourceTree = "<group>"; };
+		5162E6E31DDF38D3002E342A /* BTChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTChildViewController.m; sourceTree = "<group>"; };
 		677BAC30ECED53CC63A47C60 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9E38C10D3CAB25EC4ED5E20D /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AB4263187D68EA67582036 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +75,10 @@
 				510458C11DDF29F80060A1CD /* AppDelegate.m */,
 				510458C31DDF29F80060A1CD /* ViewController.h */,
 				510458C41DDF29F80060A1CD /* ViewController.m */,
+				5162E6E01DDF38D3002E342A /* BTSpotEditPreviewViewController.h */,
+				5162E6E11DDF38D3002E342A /* BTSpotEditPreviewViewController.m */,
+				5162E6E21DDF38D3002E342A /* BTChildViewController.h */,
+				5162E6E31DDF38D3002E342A /* BTChildViewController.m */,
 				510458C61DDF29F80060A1CD /* Main.storyboard */,
 				510458C91DDF29F80060A1CD /* Assets.xcassets */,
 				510458CB1DDF29F80060A1CD /* LaunchScreen.storyboard */,
@@ -227,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				510458C51DDF29F80060A1CD /* ViewController.m in Sources */,
+				5162E6E41DDF38D3002E342A /* BTSpotEditPreviewViewController.m in Sources */,
+				5162E6E51DDF38D3002E342A /* BTChildViewController.m in Sources */,
 				510458C21DDF29F80060A1CD /* AppDelegate.m in Sources */,
 				510458BF1DDF29F80060A1CD /* main.m in Sources */,
 			);
@@ -389,6 +401,7 @@
 				510458D31DDF29F80060A1CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

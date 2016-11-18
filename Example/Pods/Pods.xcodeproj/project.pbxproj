@@ -7,51 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FE0C7190BC797F6684EB49440556E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		03FE0C7190BC797F6684EB49440556E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
 		054DCC152FB76B9BDCE6322E7DA454FB /* BTVerticalPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3C919A85C5C8F936B5A54620E0F16C /* BTVerticalPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0799FCA062BA65969CC9BA8AB4732B81 /* UIScrollView+SVInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B22F3454F66AEC73BF69AE10CFFB73 /* UIScrollView+SVInfiniteScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A349C06C80B06A1C6D3810BB310CB09 /* SVPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0395E69A0C94D5A343C3602590E6EDED /* SVPullToRefresh-dummy.m */; };
+		4FDFBD6EA51462B9E31A0F99A4FB5807 /* UIScrollView+SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 76934A33A273B0089FC373CF887A6ECC /* UIScrollView+SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE4A3943FC87E9090C93AF303B1CDC7 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
+		62FF05AC9769EF49D313FBAFAF672A39 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 191EAF449253749666F7798092600B63 /* UIScrollView+SVInfiniteScrolling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E5E3E92F167ACEC67F8FA49D3CB6594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
 		8497290BEFC28ACBA43A7D478B7813DA /* BTVerticalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6076B0161A1B513F81E4A8C79662A49 /* BTVerticalPageViewController.m */; };
-		90E925A4B0675EC9546AC13FFA5C9529 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
+		87A68650A0497D81AF6A0167522A600E /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B795AD9E077AE46B06A39FA044729D79 /* UIScrollView+SVPullToRefresh.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1469785442F8396FC6A2CC102ACF12D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
 		D640EABB88986C63F3251B5DCC744A8B /* BTVerticalPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CDE87B6E622D666A89E1563F04814E /* BTVerticalPage-dummy.m */; };
-		DC9FFBD3A2ABC78FDE945C383CE3FDED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DD57FF753307790F9018B6EF32805270 /* SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = D32A4C58B6085608E83E60BEC08CB264 /* SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAE105DE90B6FECD5FD0B358D44EE33D /* BTVerticalPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0025AA0D51F716D91AC6446CBF5A836B /* BTVerticalPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FF73999012C06B14F285F4376118D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7AFA8CE00E9BAFD7C969C85170C64A88 /* PBXContainerItemProxy */ = {
+		2EDD6A5448A4613AD0EC0594C511832C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D467AF01D723EE41C3871FAC51576D8C;
 			remoteInfo = BTVerticalPage;
 		};
+		97C2EB3C00CBF807C40AD6490124ACA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 739EDB5697B45205872ECAD99D2B66B4;
+			remoteInfo = SVPullToRefresh;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0025AA0D51F716D91AC6446CBF5A836B /* BTVerticalPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTVerticalPage.h; sourceTree = "<group>"; };
+		0395E69A0C94D5A343C3602590E6EDED /* SVPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVPullToRefresh-dummy.m"; sourceTree = "<group>"; };
 		0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		191EAF449253749666F7798092600B63 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVInfiniteScrolling.m"; path = "SVPullToRefresh/UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		2871E8C9A1E26E8B0F1677BAC6EE2D55 /* SVPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVPullToRefresh.xcconfig; sourceTree = "<group>"; };
 		2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		36A7AC2D5EE5A870161E1615831C22A4 /* libBTVerticalPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBTVerticalPage.a; path = libBTVerticalPage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4B3C919A85C5C8F936B5A54620E0F16C /* BTVerticalPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BTVerticalPageViewController.h; sourceTree = "<group>"; };
 		5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		76934A33A273B0089FC373CF887A6ECC /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVPullToRefresh.h"; path = "SVPullToRefresh/UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
 		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		86B22F3454F66AEC73BF69AE10CFFB73 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVInfiniteScrolling.h"; path = "SVPullToRefresh/UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1EDA06654B2CEE79F16B71FCDA2EA2E /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		994F47A1FBC8F009E0F81BA608E8FAA7 /* libBTVerticalPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBTVerticalPage.a; path = libBTVerticalPage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A371A79DAE75C6A0CE77804BBA2A669A /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6740DADC1C1FAB14A3F2E68957564A6 /* SVPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		B795AD9E077AE46B06A39FA044729D79 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVPullToRefresh.m"; path = "SVPullToRefresh/UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		CB11D65BB4ECEA03D9999F37370FA8E2 /* BTVerticalPage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTVerticalPage.xcconfig; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC98AB810412E91BA4E804F841B853EB /* BTVerticalPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTVerticalPage-prefix.pch"; sourceTree = "<group>"; };
+		D32A4C58B6085608E83E60BEC08CB264 /* SVPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVPullToRefresh.h; path = SVPullToRefresh/SVPullToRefresh.h; sourceTree = "<group>"; };
 		D6076B0161A1B513F81E4A8C79662A49 /* BTVerticalPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BTVerticalPageViewController.m; sourceTree = "<group>"; };
 		E1CDE87B6E622D666A89E1563F04814E /* BTVerticalPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTVerticalPage-dummy.m"; sourceTree = "<group>"; };
+		FE1EC352AA2C2013849D366FCFC90BB4 /* libSVPullToRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVPullToRefresh.a; path = libSVPullToRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E39F83254DDBC241A93AD8384FD6F6E /* Frameworks */ = {
+		0C901E38FAE75611C9973D386E98C997 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9FFBD3A2ABC78FDE945C383CE3FDED /* Foundation.framework in Frameworks */,
+				F4FF73999012C06B14F285F4376118D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305DA5D46000901E7B6A8568A7E996AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5E3E92F167ACEC67F8FA49D3CB6594 /* Foundation.framework in Frameworks */,
+				C1469785442F8396FC6A2CC102ACF12D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +100,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37EA543D1B73EACFBCAC299AD5A9AC3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2871E8C9A1E26E8B0F1677BAC6EE2D55 /* SVPullToRefresh.xcconfig */,
+				0395E69A0C94D5A343C3602590E6EDED /* SVPullToRefresh-dummy.m */,
+				A6740DADC1C1FAB14A3F2E68957564A6 /* SVPullToRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVPullToRefresh";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		599CB2CB8032954DD10877849E47044B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				994F47A1FBC8F009E0F81BA608E8FAA7 /* libBTVerticalPage.a */,
+				A371A79DAE75C6A0CE77804BBA2A669A /* libPods-Example.a */,
+				FE1EC352AA2C2013849D366FCFC90BB4 /* libSVPullToRefresh.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,12 +152,18 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		7CD67722B42455E7E37E61069D053ACC /* SVPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				D32A4C58B6085608E83E60BEC08CB264 /* SVPullToRefresh.h */,
+				86B22F3454F66AEC73BF69AE10CFFB73 /* UIScrollView+SVInfiniteScrolling.h */,
+				191EAF449253749666F7798092600B63 /* UIScrollView+SVInfiniteScrolling.m */,
+				76934A33A273B0089FC373CF887A6ECC /* UIScrollView+SVPullToRefresh.h */,
+				B795AD9E077AE46B06A39FA044729D79 /* UIScrollView+SVPullToRefresh.m */,
+				37EA543D1B73EACFBCAC299AD5A9AC3B /* Support Files */,
 			);
-			name = iOS;
+			name = SVPullToRefresh;
+			path = SVPullToRefresh;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -102,19 +171,11 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				AF2E079AF13DAB2EBF016EFF40F17B37 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				980E88E97EE8833FB8175D9250CDB3D5 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DF778C85FBC002C7F842FF13F4F538BB /* Pods */,
+				599CB2CB8032954DD10877849E47044B /* Products */,
 				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		980E88E97EE8833FB8175D9250CDB3D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				36A7AC2D5EE5A870161E1615831C22A4 /* libBTVerticalPage.a */,
-				B1EDA06654B2CEE79F16B71FCDA2EA2E /* libPods-Example.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9CC838B14D8ED765D2C5D0A63F4B7A64 /* Support Files */ = {
@@ -136,12 +197,21 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF778C85FBC002C7F842FF13F4F538BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CD67722B42455E7E37E61069D053ACC /* SVPullToRefresh */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E574CDD50C7A48642AD8756C341E2667 /* BTVerticalPage */ = {
@@ -177,24 +247,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F93001CD19EC5C17902E8D26D4731541 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD57FF753307790F9018B6EF32805270 /* SVPullToRefresh.h in Headers */,
+				0799FCA062BA65969CC9BA8AB4732B81 /* UIScrollView+SVInfiniteScrolling.h in Headers */,
+				4FDFBD6EA51462B9E31A0F99A4FB5807 /* UIScrollView+SVPullToRefresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		70D58F6A544F7ECC070F8BB500452E7E /* Pods-Example */ = {
+		739EDB5697B45205872ECAD99D2B66B4 /* SVPullToRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED067BE5AA01C1E27626D36A1C451007 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = 678C1A9B7641463CC2EDD5FD50F1546A /* Build configuration list for PBXNativeTarget "SVPullToRefresh" */;
 			buildPhases = (
-				A3E47ED3E2711F333FBE135297BCD24E /* Sources */,
-				5E39F83254DDBC241A93AD8384FD6F6E /* Frameworks */,
+				675540CD806C16CA20D15BEAE3C91175 /* Sources */,
+				305DA5D46000901E7B6A8568A7E996AE /* Frameworks */,
+				F93001CD19EC5C17902E8D26D4731541 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37C028231AD712379B51D45DC3C13B60 /* PBXTargetDependency */,
 			);
-			name = "Pods-Example";
-			productName = "Pods-Example";
-			productReference = B1EDA06654B2CEE79F16B71FCDA2EA2E /* libPods-Example.a */;
+			name = SVPullToRefresh;
+			productName = SVPullToRefresh;
+			productReference = FE1EC352AA2C2013849D366FCFC90BB4 /* libSVPullToRefresh.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D467AF01D723EE41C3871FAC51576D8C /* BTVerticalPage */ = {
@@ -211,7 +291,25 @@
 			);
 			name = BTVerticalPage;
 			productName = BTVerticalPage;
-			productReference = 36A7AC2D5EE5A870161E1615831C22A4 /* libBTVerticalPage.a */;
+			productReference = 994F47A1FBC8F009E0F81BA608E8FAA7 /* libBTVerticalPage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1D93D398E6B27DBDA9D5E27A2636D20 /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DECB9DD69244669A1A825D2B130B65A /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				DADA334B0A0C5F6A12B41B6B675925A0 /* Sources */,
+				0C901E38FAE75611C9973D386E98C997 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59058A29682B7F9914CF0189901FBD14 /* PBXTargetDependency */,
+				F8107159FFCB8959668A747B60BD6DC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = A371A79DAE75C6A0CE77804BBA2A669A /* libPods-Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -231,12 +329,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 980E88E97EE8833FB8175D9250CDB3D5 /* Products */;
+			productRefGroup = 599CB2CB8032954DD10877849E47044B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D467AF01D723EE41C3871FAC51576D8C /* BTVerticalPage */,
-				70D58F6A544F7ECC070F8BB500452E7E /* Pods-Example */,
+				E1D93D398E6B27DBDA9D5E27A2636D20 /* Pods-Example */,
+				739EDB5697B45205872ECAD99D2B66B4 /* SVPullToRefresh */,
 			);
 		};
 /* End PBXProject section */
@@ -251,22 +350,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3E47ED3E2711F333FBE135297BCD24E /* Sources */ = {
+		675540CD806C16CA20D15BEAE3C91175 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90E925A4B0675EC9546AC13FFA5C9529 /* Pods-Example-dummy.m in Sources */,
+				3A349C06C80B06A1C6D3810BB310CB09 /* SVPullToRefresh-dummy.m in Sources */,
+				62FF05AC9769EF49D313FBAFAF672A39 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				87A68650A0497D81AF6A0167522A600E /* UIScrollView+SVPullToRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA334B0A0C5F6A12B41B6B675925A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE4A3943FC87E9090C93AF303B1CDC7 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37C028231AD712379B51D45DC3C13B60 /* PBXTargetDependency */ = {
+		59058A29682B7F9914CF0189901FBD14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BTVerticalPage;
 			target = D467AF01D723EE41C3871FAC51576D8C /* BTVerticalPage */;
-			targetProxy = 7AFA8CE00E9BAFD7C969C85170C64A88 /* PBXContainerItemProxy */;
+			targetProxy = 2EDD6A5448A4613AD0EC0594C511832C /* PBXContainerItemProxy */;
+		};
+		F8107159FFCB8959668A747B60BD6DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVPullToRefresh;
+			target = 739EDB5697B45205872ECAD99D2B66B4 /* SVPullToRefresh */;
+			targetProxy = 97C2EB3C00CBF807C40AD6490124ACA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -315,6 +430,29 @@
 			};
 			name = Debug;
 		};
+		128E6CC0E383D1BEBCE0DD53B6D96D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		22021625EBFBDA0868A2F21B15C306B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB11D65BB4ECEA03D9999F37370FA8E2 /* BTVerticalPage.xcconfig */;
@@ -327,6 +465,29 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/BTVerticalPage/BTVerticalPage-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		436725BAF5EBC2DB7D0952A699FE0B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2871E8C9A1E26E8B0F1677BAC6EE2D55 /* SVPullToRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVPullToRefresh/SVPullToRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -401,7 +562,7 @@
 			};
 			name = Debug;
 		};
-		6FB93B9CAED6713275AFF5401D539B39 /* Debug */ = {
+		6E2E6B44E25EDB356017CFEE694FB0FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
@@ -424,32 +585,41 @@
 			};
 			name = Debug;
 		};
-		B66DE961A3A9CCFB608C5751AFB3E788 /* Release */ = {
+		AD76D9EB41A2338EACF9DF936BC7DEAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 2871E8C9A1E26E8B0F1677BAC6EE2D55 /* SVPullToRefresh.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SVPullToRefresh/SVPullToRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1DECB9DD69244669A1A825D2B130B65A /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2E6B44E25EDB356017CFEE694FB0FA /* Debug */,
+				128E6CC0E383D1BEBCE0DD53B6D96D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -459,20 +629,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		678C1A9B7641463CC2EDD5FD50F1546A /* Build configuration list for PBXNativeTarget "SVPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD76D9EB41A2338EACF9DF936BC7DEAD /* Debug */,
+				436725BAF5EBC2DB7D0952A699FE0B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		96374E37C185B592FA23D65FC6333870 /* Build configuration list for PBXNativeTarget "BTVerticalPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53754F93AC72566B5183F0B1F6780A2D /* Debug */,
 				22021625EBFBDA0868A2F21B15C306B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED067BE5AA01C1E27626D36A1C451007 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6FB93B9CAED6713275AFF5401D539B39 /* Debug */,
-				B66DE961A3A9CCFB608C5751AFB3E788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
