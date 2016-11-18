@@ -1,0 +1,16 @@
+PODS:
+  - BTVerticalPage (1.0.0)
+
+DEPENDENCIES:
+  - BTVerticalPage (from `../`)
+
+EXTERNAL SOURCES:
+  BTVerticalPage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTVerticalPage: 06afb0b1d773d62afd42dec67f33a68720b8f8da
+
+PODFILE CHECKSUM: f96c024789f9c7e543ffa7f0a02c82768aea7494
+
+COCOAPODS: 1.2.0.beta.1
