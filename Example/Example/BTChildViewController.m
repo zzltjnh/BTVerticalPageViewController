@@ -54,6 +54,25 @@
             
         }];
     }];
+    
+    [self.tableView.pullToRefreshView setCustomView:[self customPullToRefreshView] forState:SVPullToRefreshStateAll];
+    [self.tableView.infiniteScrollingView setCustomView:[self customInfiniteView] forState:SVPullToRefreshStateAll];
+}
+
+- (UIView *)customPullToRefreshView {
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 60)];
+    label.numberOfLines = 1;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = _index == 0 ? @"已经是第一页" : @"上一页";
+    return label;
+}
+
+- (UIView *)customInfiniteView {
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 60)];
+    label.numberOfLines = 1;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = _index == 2 ? @"已经是最后一页" : @"下一页";
+    return label;
 }
 
 - (void)didReceiveMemoryWarning {

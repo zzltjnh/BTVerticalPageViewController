@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
-    _dataArray = @[@(0),@(1),@(2),@(3),@(4),@(5),@(6),@(7),@(8),@(9),@(10),@(11),@(12),@(13),@(14),@(15)];
+    _dataArray = @[@(0),@(1),@(2)];
     self.dataSource = self;
     self.delegate = self;
     
