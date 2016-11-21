@@ -4,7 +4,7 @@ PageViewController with vertical direction.
 
 ## Example
 
-![](/Screenshots/screenshot1.gif)
+![](/ScreenShots/screenshot1.gif)
 
 To run the example project, clone the repo, open `BTVerticalPage.xcworkspace` from root directory.
 
